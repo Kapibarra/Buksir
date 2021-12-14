@@ -335,6 +335,7 @@ a {
         background-size: 100%;
     }
     .header {
+        box-sizing: border-box;
         padding-left: 10px;
         padding-right: 10px;
     }
@@ -362,6 +363,7 @@ a {
     .main__text-title {
         margin-top: 20px;
         margin-bottom: 20px;
+        font-size: 36px;
     }
     .main__text-subtitle {
         margin-top: 40px;
@@ -382,8 +384,8 @@ a {
         padding-right: 10px;
     }
     .about__img {
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
     }
     .work__title {
         padding-left: 10px;
@@ -392,6 +394,7 @@ a {
     .work__text {
         padding-left: 10px;
         padding-right: 10px;
+        max-width: 90%;
     }
     .contacts-title {
         padding-left: 10px;
@@ -406,3 +409,5 @@ a {
         padding: 10px;
     }
 }
+
+@media screen and (max-width:375px) {}
