@@ -330,14 +330,21 @@ a {
 @media screen and (max-width:428px) {
     .page {
         box-sizing: border-box;
-        padding-left: 10px;
-        padding-right: 10px;
         background: url(./img/mainbg.png);
         background-repeat: no-repeat;
         background-size: 100%;
     }
+    .header {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
     .header__cta-btn {
         display: none;
+    }
+    .main {
+        box-sizing: border-box;
+        padding-left: 10px;
+        padding-right: 10px;
     }
     .main__img {
         display: none;
@@ -356,9 +363,6 @@ a {
         margin-top: 20px;
         margin-bottom: 20px;
     }
-    .main {
-        padding: 0;
-    }
     .main__text-subtitle {
         margin-top: 40px;
         margin-bottom: 44px;
@@ -369,5 +373,36 @@ a {
     .about__text {
         padding-top: unset;
     }
-    .main-wrapper {}
+    .about__title {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .about__text {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .about__img {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .work__title {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .work__text {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .contacts-title {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .contacts-left {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .footer {
+        box-sizing: border-box;
+        padding: 10px;
+    }
 }
