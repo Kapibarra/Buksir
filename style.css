@@ -410,4 +410,11 @@ a {
     }
 }
 
-@media screen and (max-width:375px) {}
+@media screen and (max-width:375px) {
+    .main__button-item {
+        left: 50%;
+        transform: translate(-50%, 0);
+        width: 275px;
+        height: 70px;
+    }
+}
